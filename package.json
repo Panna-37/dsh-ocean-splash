@@ -1,0 +1,41 @@
+{
+  "name": "dsh-ocean-splash",
+  "version": "0.2.3",
+  "description": "ASCII ocean boot splash for DeepSeek Harness: character-drawn sharks eat the wordmark before the app fades in.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "lib/boot.js",
+    "lib/ocean-renderer.js",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "author": "Panna",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panna/dsh-ocean-splash.git"
+  },
+  "homepage": "https://github.com/Panna/dsh-ocean-splash#readme",
+  "bugs": {
+    "url": "https://github.com/Panna/dsh-ocean-splash/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "boot-splash",
+    "splash-screen",
+    "ascii-art",
+    "shark",
+    "canvas"
+  ]
+}
