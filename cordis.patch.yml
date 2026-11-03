@@ -1,0 +1,4 @@
+- insert:
+    - id: ocean-splash
+      name: dsh-ocean-splash
+      config: {}
